@@ -7,10 +7,10 @@ event.preventDefault();
 ["trim"]
 ["messages", "push"]
 //Username validation
-const usernameInput = document.getElementById('username');
+const username = document.getElementById('username');
 const usernameError = document.getElementById('usernameError')
 
-if (usernameInput.ariaValueMax.length<3){
+if (usernameI.length<3){
     isValid = false;
     usernameError.textContent = "The length criteria has not been met.";
 }else{
