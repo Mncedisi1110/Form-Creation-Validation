@@ -1,4 +1,4 @@
-const fetchUserData = async () => {
+async function fetchUserData() {
     const apiurl = 'https://jsonplaceholder.typicode.com/users'
     try{
         const response = await fetch(apiurl);
@@ -11,6 +11,6 @@ const fetchUserData = async () => {
             
 
         });
-    }
+    }catch(Error){console.error(Error);}
 
 }
