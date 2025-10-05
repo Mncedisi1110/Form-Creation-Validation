@@ -5,7 +5,7 @@ form.addEventListener('submit', function(event){
 event.preventDefault();
 
 ["trim"]
-["mesages", "push"]
+["messages", "push"]
 //Username validation
 const usernameInput = document.getElementById('username');
 const usernameError = document.getElementById('usernameError')
