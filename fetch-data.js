@@ -10,6 +10,6 @@ async function fetchUserData(){
        userList.appendChild(list);
        dataContainer.appendChild(userList);
     
- }catch(Error){console.error(Error);}
+ }catch(Error){console.error("Failed to load user data.");}
 }fetchUserData()
 
