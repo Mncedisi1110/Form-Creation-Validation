@@ -4,6 +4,7 @@ const feedbackDiv = document.getElementById('form-feedback');
 form.addEventListener('submit', function(event){
 event.preventDefault();
 
+["trim"]
 //Username validation
 const usernameInput = document.getElementById('username');
 const usernameError = document.getElementById('usernameError')
