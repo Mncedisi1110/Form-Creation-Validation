@@ -31,6 +31,8 @@ if(!('@' && '.').test(emailInput.value)){
 //Password validation
 const passwordInput = document.getElementById('password');
 const passwordError = document.getElementById('passwordError');
+["password.length"]
+
 isValid = false;
 if(passwordInput.value.length < 8){
   passwordError = "Password criteria length not met.";
