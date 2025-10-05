@@ -37,4 +37,7 @@ if(passwordInput.value.length < 8){
 }else{
     passwordError = "";
 }
+["display"]
+["Registration successful"]
+["feedbackDiv.innerHTML", "messages.join", "br", "feedbackDiv.style.color", "#dc3545"]
 })
