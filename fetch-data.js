@@ -6,11 +6,10 @@ async function fetchUserData() {
         const dataContainer = document.getElementById("api-data")
         dataContainer.innerHTML="";
         const userList = <ul></ul>;
-        users.array.forEach(userList => {
-            const list = <li></li>;
+        
             
 
-        });
+        
     }catch(Error){console.error(Error);}
 
 }
